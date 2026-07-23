@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Calibri", Arial, sans-serif;
+}
+
+body{
+    background:#ececec;
+    color:#222;
+    line-height:1.6;
+}
+
+.container{
+    width:850px;
+    margin:30px auto;
+    background:#fff;
+    padding:40px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+header{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:38px;
+    color:#003366;
+    margin-bottom:10px;
+}
+
+.contact{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    font-size:15px;
+}
+
+.contact span{
+    color:#444;
+}
+
+.contact i{
+    color:#003366;
+    margin-right:6px;
+}
+
+hr{
+    margin:20px 0;
+    border:1px solid #ccc;
+}
+
+section{
+    margin-bottom:25px;
+}
+
+section h2{
+    color:#003366;
+    font-size:24px;
+    margin-bottom:10px;
+    border-bottom:2px solid #003366;
+    padding-bottom:5px;
+}
+
+section p{
+    text-align:justify;
+}
+
+.education{
+    margin-bottom:15px;
+}
+
+.education h3{
+    font-size:18px;
+    color:#111;
+}
+
+.education span{
+    color:#666;
+    font-size:14px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+table td{
+    border:1px solid #ccc;
+    padding:10px;
+    vertical-align:top;
+}
+
+table td:first-child{
+    width:220px;
+    background:#f8f8f8;
+}
+
+.project{
+    margin-top:15px;
+}
+
+.project h3{
+    color:#003366;
+    margin-bottom:8px;
+}
+
+.project ul{
+    margin-left:20px;
+}
+
+.project li{
+    margin-bottom:6px;
+}
+
+section ul{
+    margin-left:20px;
+}
+
+section li{
+    margin-bottom:8px;
+}
+
+a{
+    text-decoration:none;
+    color:#003366;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* Print like Resume */
+
+@media print{
+
+body{
+    background:#fff;
+}
+
+.container{
+    width:100%;
+    margin:0;
+    padding:20px;
+    box-shadow:none;
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:900px){
+
+.container{
+    width:95%;
+    padding:20px;
+}
+
+.contact{
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+}
+
+header h1{
+    font-size:30px;
+}
+
+section h2{
+    font-size:22px;
+}
+
+table,
+table tbody,
+table tr,
+table td{
+    display:block;
+    width:100%;
+}
+
+table td{
+    border:1px solid #ddd;
+}
+
+}
