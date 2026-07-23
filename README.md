@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🌐 Personal Portfolio Website
 
 A simple and responsive Personal Portfolio Website built using HTML, CSS, and JavaScript.
