@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Personal Portfolio Website
 
 A simple and responsive Personal Portfolio Website built using HTML, CSS, and JavaScript.
@@ -37,3 +38,7 @@ Personal-Portfolio-Website/
 
 - Email: savithadsouza098@gmail.com
 - LinkedIn: https://linkedin.com/in/reshma-d-souza
+=======
+# Personal-Portfolio-Website
+A simple and responsive personal resume website built using HTML, CSS, and JavaScript.
+>>>>>>> 20da75f847282cd46939b82d9310594db076dac7
